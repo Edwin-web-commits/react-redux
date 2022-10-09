@@ -6,7 +6,7 @@ const combineReducers = redux.combineReducers; //combine multiple reducers into 
 const applyMiddleware = redux.applyMiddleware; //apply middleware
 const logger = reduxLogger.createLogger();
 
-//Action
+//Action types
 const BUY_CAKE = "BUY_CAKE";
 const BUY_ICE_CREAM = "BUY_ICE_CREAM";
 
